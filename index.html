@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>7DaysOfCode | JS</title>
+</head>
+
+<body>
+    <header>
+        <img src="https://content.app-us1.com/MpJmZ/2022/03/17/d9680647-949b-4175-8e70-8682da05a143.png?r=616667757"
+            alt="">
+    </header>
+
+    <main>
+        <div class="days">
+            <section class="container" id="day-1">
+                <h2 class="days__titulo">Execicio 1: Comparando valores</h2>
+                <div id="day-1__resultado"></div>
+            </section>
+
+            <section class="container" id="day-2">
+                <h2 class="days__titulo">Execicio 2: Perguntando coisas</h2>
+                <div id="day-2__pergunta">
+                    <P>Qual o seu nome?</P>
+                    <input type="text" id="day-2__nome">
+                    <p>Qual a sua idade?</p>
+                    <input type="text" id="day-2__idade">
+                    <p>Qual linguagem de programção você esta estudando?</p>
+                    <input type="text" id="day-2__linguagem">
+
+                    <button class="botao" onclick="iniciar()">Iniciar</button>
+                </div>
+            </section>
+
+            <section class="container" id="day-3">
+                <h2 class="days__titulo">Exercicio 3: Verificando linguagens</h2>
+                <div id="day-3__pergunta">
+                    <p>Qual o seu nome?</p>
+                    <input type="text" id="day-3__nome">
+
+                    <button class="botao" id="enviar-exerc3">Enviar</button>
+                </div>
+            </section>
+
+            <section class="container" id="day-4">
+                <h2 class="days__titulo">Execicio 4: Adivinhar o numero</h2>
+                <p>Tente chutar um valor de 0 a 10:</p>
+                <div id="day-4__chute">
+                    <input type="text" id="valor">
+                    <button class="botao" onclick="verificarChute()">Chutar</button>
+                    <p>Voce tem 3 chances!!</p>
+                </div>
+            </section>
+
+            <section class="container" id="day-5">
+                <h2 class="days__titulo">Exercicio 5 e 6: Lista de Compras</h2>
+                <div id="day-5__lista"></div>
+            </section>
+
+            <section class="container" id="day-7">
+                <h2 class="days__titulo">Exercicio 7: Calculadora</h2>
+                <div id="day-7__calculadora">
+                    <p>valor1:</p>
+                    <input type="text" id="valor1">
+                    <p>valor2:</p>
+                    <input type="text" id="valor2">
+                    <div>
+                        <button class="botao" onclick="somar()">+</button>
+                        <button class="botao" onclick="subtrair()">-</button>
+                        <button class="botao" onclick="multiplicar()">*</button>
+                        <button class="botao" onclick="dividir()">/</button>
+                    </div>
+                    <div id="resultado"></div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+
+    <script src="js/day1.js"></script>
+    <script src="js/day2.js"></script>
+    <script src="js/day3.js"></script>
+    <script src="js/day4.js"></script>
+    <script src="js/day5-6.js"></script>
+    <script src="js/day7.js"></script>
+</body>
+
+</html>
